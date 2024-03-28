@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    text-align: center;
+    background-image: url(../Imagenes/RivenBackground.jpg);
+    background-repeat: no-repeat;
+}
+h1 {
+    background-color: rgba(255, 228, 196, 0.813);
+    margin: 25px 0px 50px 0px;
+    border: solid;
+    color: brown;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+}
+.link-oculto {
+    color: inherit;
+    text-decoration: none;
+}
+.ListadoDeTips {
+    width: 50%; /* Ancho del div */
+    max-width: 800px; /* Ancho máximo del div para dispositivos grandes */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo con opacidad */
+    padding: 20px; /* Espacio interno dentro del div */
+    border: solid rgba(165, 42, 42, 0.865);
+    border-radius: 15px; /* Borde redondeado */
+    box-shadow: 0px 0px 10px rgb(255, 131, 131); /* Sombra */
+}
+.listado {
+    color: rgb(0, 0, 0);
+    text-align: left; /* Alinear el texto del listado a la izquierda */
+    font-family: Montserrat;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: small;
+}
+.listado-content {
+    margin-bottom: 15px; /* Margen inferior entre elementos de la lista */
+}
+
+p {
+    font-weight: 700;
+    text-align: center;
+}
+
+.reproductor {
+    padding: 15px 100px;
+    background-image: linear-gradient(to bottom right, rgba(9, 9, 9, 0.861), rgba(0, 0, 0, 0.5));
+    width: 60%;
+    height: 250px;
+    margin: 50px auto;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(222, 189, 141);
+    border-radius: 10px
+}
+.video-principal {
+    width: 70%;
+    height: 100%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.lista-reproduccion {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-item {
+    margin-bottom: 2px;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 100%;
+}

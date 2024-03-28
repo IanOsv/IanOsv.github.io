@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    text-align: center;
+    background-image: url(../Imagenes/RivenBackground.jpg);
+    background-repeat: no-repeat;
+}
+h1 {
+    background-color: rgba(255, 228, 196, 0.813);
+    margin: 25px 0px 50px 0px;
+    border: solid;
+    color: brown;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+}
+.link-oculto {
+    color: inherit;
+}
